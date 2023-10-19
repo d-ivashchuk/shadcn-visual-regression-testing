@@ -2,6 +2,8 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
+import { DemoCookieSettings } from "@/components/patterns/cookies"
+import { DemoCreateAccount } from "@/components/patterns/create-account"
 
 export default function IndexPage() {
   return (
@@ -33,6 +35,10 @@ export default function IndexPage() {
         >
           GitHub
         </Link>
+      </div>
+      <DemoCookieSettings />
+      <div className="max-w-[600px]">
+        <DemoCreateAccount />
       </div>
     </section>
   )
