@@ -21,5 +21,3 @@ jobs:
 
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.7.4
-        env:
-          LOST_PIXEL_DOCKER: "true"
